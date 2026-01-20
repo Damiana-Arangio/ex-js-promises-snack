@@ -15,7 +15,7 @@ function getPostTitle(id) {
         fetch("https://dummyjson.com/posts/" + id)
             .then(response => response.json())
             .then(post => resolve(post.title))
-            .catch(() => reject("Recupero post fallito!"));     
+            .catch(() => reject("Recupero titolo post fallito!"));     
     })
     return promise;
 }

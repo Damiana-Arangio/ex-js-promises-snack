@@ -9,10 +9,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titolo post</title>
+    <title>Post</title>
 
     <!-- Collegamento a JS -->
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script-bonus.js"></script>
 </head>
 
 <!-------------------------------------------------------------- 
@@ -25,6 +26,14 @@
     <p>
         Crea una funzione getPostTitle(id) che accetta un id e restituisce una Promise che recupera il titolo di un post dal
         link https://dummyjson.com/posts/{id}
+    </p>
+
+    <!-- Bonus -->
+    <h2>Ottieni l'intero post con l'autore</h2>
+    <p>
+        
+        Crea una funzione getPost(id) che recupera l'intero post. Concatena una seconda chiamata che aggiunge una proprietà user
+        che contiene i dati dell'autore, recuperati dalla chiamata https://dummyjson.com/users/{post.userId}.
     </p>
 </body>
 
